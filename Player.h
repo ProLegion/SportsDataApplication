@@ -5,13 +5,17 @@
 #define PLAYER_H_
 using namespace std;
 
-class Player {
-private:
+struct PlayerInfo {
 	string pName;
-	string pFileName;
 	unsigned int pNumber;
 	unsigned int oRank;
 	unsigned int dRank;
+}typedef plyr;
+
+class Player {
+private:
+	plyr pData;
+	string pFileName;
 public:
 	//Object Constructors
 	Player();

@@ -11,11 +11,11 @@ int main() {
 
 	cout << filename << endl;
 
-	player1.createPlayer();
+	/*player1.createPlayer();
 	
 	player1.updateName("Billy Bob Joe");
 	player1.showPlayer();
-	player1.loadPlayer();
+	player1.loadPlayer();*/
 
 	return 0;
 }
