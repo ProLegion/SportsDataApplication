@@ -8,6 +8,7 @@ using namespace std;
 class Player {
 private:
 	string pName;
+	string pFileName;
 	unsigned int pNumber;
 	unsigned int oRank;
 	unsigned int dRank;
@@ -30,6 +31,9 @@ public:
 	void updateName(string na);
 	void showPlayer();
 
+	void createPlayer();
+	void savePlayer();
+	void loadPlayer();
 
 };
 
